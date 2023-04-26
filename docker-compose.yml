@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  dev:
+    image: html5-css3-jonas
+    ports:
+      - 5500:5500
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: html5-css3-jonas
+    command: sh -c 'while sleep 3600; do :; done'
+    volumes:
+      - .:/course
