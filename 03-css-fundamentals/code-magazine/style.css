@@ -1,0 +1,77 @@
+h1, h2, h3, h4, p, li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1, h2, h3 {
+  color: #1098ad;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 26px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+.related-posts-list {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* List items pseudo-classes styling */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(3) {
+  color: green;
+}
+
+/* Hyperlinks */
+
+a:link {
+  text-decoration: none;
+}
+
