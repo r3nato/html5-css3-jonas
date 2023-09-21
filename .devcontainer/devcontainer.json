@@ -5,6 +5,7 @@
 	],
 	"service": "dev",
 	"workspaceFolder": "/course",
+	"onCreateCommand": "git config --system --add safe.directory ${containerWorkspaceFolder}",
 	"customizations": {
 		"vscode": {
 			"settings": {
@@ -40,7 +41,8 @@
 				"formulahendry.auto-rename-tag",
 				"ritwickdey.LiveServer",
 				// Utils:
-				"editorconfig.editorconfig"
+				"editorconfig.editorconfig",
+				"eamodio.gitlens"
 			]
 		}
 	}

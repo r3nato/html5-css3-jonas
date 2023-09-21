@@ -7,6 +7,7 @@
     <title>Section 3 notes</title>
   </head>
   <body>
+    <h1>Section 3 notes</h1>
     <ul>
       <li>
         Avoid inline and internal css declarations. Rather use an external css
@@ -23,13 +24,12 @@
         of the specified font size.
       </li>
       <li>
-        With list selectors it is possible to style several elements at the same
-        time. E.g., h1, h2, h3 { .... } these three elements are styled at the
-        same time.
+        List selectors allow styling several elements at the same time. For
+        example: h1, h2, h3 { .... } style all these headers simultaneously.
       </li>
       <li>
-        With descendant selectors, we style all the specified child elements of
-        the hierarchy. E.g., "footer p { ... }" styles all paragraphs that are
+        Descendant selectors allow styling only elements of the specified
+        hierarchy. Example: footer p { ... } styles all paragraphs that are
         children of the page footer.
       </li>
       <li>
@@ -47,6 +47,15 @@
       <li>
         When using percentages on dimensions, the element becomes responsive.
         I.e., it adapts to any screen size.
+      </li>
+      <li>
+        Inline elements only occupy the space it needs, height and width-based
+        attributes don't apply (height, width, vertcal margins, vertical
+        paddings, etc.).
+      </li>
+      <li>
+        It is possible to chain two or more pseudo-classes. Example:
+        a:link:last-child
       </li>
     </ul>
   </body>

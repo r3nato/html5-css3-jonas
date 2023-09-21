@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.product {
+  border: 5px solid #000;
+  width: 825px;
+  margin: 50px auto;
+}
+
+.product-title {
+  background-color: #EEE;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+.sale-badge {
+  text-transform: uppercase;
+  background-color: #ec2f2f;
+  color: #fff;
+  letter-spacing: 5px;
+  font-weight: bold;
+  padding: 7px 15px;
+  font-size: 12px;
+  position: absolute;
+  top: -17px;
+  left: -45px;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.product-image {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 22px;
+}
+
+.shipping {
+  text-transform: uppercase;
+  color: #888;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.small-margin-bottom {
+  margin-bottom: 10px;
+}
+
+.medium-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.big-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.more-info:link, .more-info:visited {
+  color: #000;
+}
+
+.more-info:hover, .more-info:active {
+  text-decoration: none;
+}
+
+.colors-container {
+  margin: 20px 0;
+}
+
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.color-box:last-child {
+  margin-right: 0;
+}
+
+.bgcolor-black {
+  background-color: black;
+}
+
+.bgcolor-blue {
+  background-color: blue;
+}
+
+.bgcolor-red {
+  background-color: red;
+}
+
+.bgcolor-yellow {
+  background-color: yellow;
+}
+
+.bgcolor-green {
+  background-color: green;
+}
+
+.bgcolor-brown {
+  background-color: brown;
+}
+
+.product-details-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin: 10px 0;
+}
+
+.add-cart {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-top: 5px solid #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+}
